@@ -1,0 +1,17 @@
+@media only screen and (min-whith: 768px) {
+.carousel-item{
+    max-height: 400px;
+    background-position: center center;
+}
+}
+body{
+    background-color:lightyellow
+}
+h2{
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+.futer{
+    background-color: rgb(216, 215, 215);
+}
