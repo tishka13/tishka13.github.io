@@ -1,0 +1,257 @@
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    z-index: 1060;
+    overflow: hidden;
+}
+
+.lds-circle {
+    display: inline-block;
+    transform: translateZ(1px);
+  }
+  .lds-circle > div {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    background: #fff;
+    animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  @keyframes lds-circle {
+    0%, 100% {
+      animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+    }
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(1800deg);
+      animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    }
+    100% {
+      transform: rotateY(3600deg);
+    }
+  }
+  
+
+
+
+.banner{
+    background-color: rgb(24, 167, 211);
+}
+.tishka{
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+
+.image_text1, .image_text2, .image_text3 {
+    transition: all 2s;
+}
+
+.img-hide {
+    position: relative;
+    width: 300px;
+    margin: 0 40px;
+}
+
+.img-hide .text1, .img-hide .text2, .img-hide .text3 {
+    position: absolute;
+    top: 0;
+    /* причіпляємо до верхнього лівого кута*/
+
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: whitesmoke;
+    transition: all 2s;
+
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+
+
+
+body{
+    overflow-x: hidden;
+}
+.my-anim-left {
+    transform: translateX(-120%);
+    opacity: 0;
+    transition: 1s 1.5s;
+}
+
+.activ-anim-left {
+    transform: translateX(0);
+    opacity: 1;
+}
+.my-anim-right {
+    transform: translateX(200%);
+    opacity: 0;
+    transition: 1s 1.5s;
+}
+
+.activ-anim-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.my-anim-top {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 1s 1.5s;
+}
+
+.activ-anim-top {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.my-anim-bottom {
+    transform: translateY(200%);
+    opacity: 0;
+    transition: 1s 0.3s;
+}
+
+.activ-anim-bottom {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.my-phone{
+    background-color:white;
+    border-radius: 20px;
+}
+
+.my-fone{
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.row{
+    margin-bottom: 2rem
+    ;}
+ 
+
+    .my-cream{
+        background-color: white;
+    border-radius: 20px;
+
+    }
+
+    .fusion{
+        background-image: url(8.jpg);
+        color: white;
+        background-position:  0% 100% ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+       
+        
+       
+
+       .bold{
+           color:black;
+       }
+
+
+       .morgan{
+        
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+       }
+
+
+
+       .how-sell-1{
+        background-color: white;
+        box-shadow: 0px 0px 35px #535352;
+        text-align: center;
+        color: black;
+        padding: 20px;
+        height: 100%;
+    }
+    .how-sell-1 h3{
+        color: red;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 991px) {
+        .sell-1{
+            padding-bottom: 3rem;
+        }
+       }
+      
+
+       .color-red{
+           color:red;
+       }
+
+
+       .bold{
+        font-weight: 900;
+        margin: 3rem 0;
+        color:white;
+    }
+
+
+
+    .how-sell-21{
+        background-image: url(9.png);
+    }
+    .how-sell-22{
+        background-image: url(10.png);
+    }
+    .how-sell-23{
+        background-image: url(11.png);
+    }
+    .how-sell-21, .how-sell-22 , .how-sell-23{
+        background-size: 132px 250px;
+        background-repeat: no-repeat;
+        border: 1px solid red;
+        border-bottom: 5px solid red;
+        padding: 3rem;
+        padding-top: 9rem;
+    }
+    @media only screen and (max-width: 991px) {
+        .sell-1{
+            padding-bottom: 3rem;
+        }
+       }
+
+       .road{
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        
+
+       }
+
+       .rack{
+        background-color: rgb(24, 167, 211);
+        color:black;
+        border-radius: 20px;
+        font-weight: 900;
+        margin: 3rem 0;
+       }
+
+
+       .man{
+        background-color: white;
+       }
+
+       
